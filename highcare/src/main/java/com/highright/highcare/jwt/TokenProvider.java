@@ -182,15 +182,6 @@ public class TokenProvider {
         String cookieValue = refreshToken;
         log.info("[TokenProvider] generateRefreshTokenInCookie : refreshToken === {}", refreshToken);
 
-
-        // cookie = "RefreshToken uuid id"
-//        ResponseCookie cookie = ResponseCookie.from(cookieName, cookieValue)
-//                .httpOnly(true)
-//                .secure(true)
-//                .sameSite(org.springframework.boot.web.server.Cookie.SameSite.NONE.name())
-//                .path("/")
-//                .maxAge(REFRESH_TOKEN_EXPIRE_TIME)
-//                .build();
         Cookie cookie = new Cookie(cookieName, cookieValue);
         cookie.setHttpOnly(true);             // httponly 옵션 설정
         cookie.setSecure(false);               // https 옵션 설정
