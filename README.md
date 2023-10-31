@@ -1,5 +1,6 @@
 # HIGHCARE-SPRINGBOOT
 하이케어 프로젝트_백엔드
+<br>
 목적: 스프링부트 기반의 REST API 서버를 연동한 그룹웨어 및 React.js SPA 애플리케이션 개발과 Docker를 활용한 AWS 클라우드 배포 
 
 ## 🖥️ 프로젝트 소개
