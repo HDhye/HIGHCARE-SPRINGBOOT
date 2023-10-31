@@ -26,20 +26,18 @@
 - Database : Oracle DB(11xe)
 - ORM : JPA
 
-## 📌 주요 기능<a href="https://github.com/HDhye/HIGHCARE-SPRINGBOOT.wiki.git">
-#### 시큐리티/로그인<a href="https://github.com/HDhye/HIGHCARE-SPRINGBOOT/tree/main/highcare/src/main/java/com/highright/highcare/auth">
+## 📌 주요 기능 <a href="https://github.com/HDhye/HIGHCARE-SPRINGBOOT.wiki.git">
+#### 시큐리티/로그인 <a href="https://github.com/HDhye/HIGHCARE-SPRINGBOOT/tree/main/highcare/src/main/java/com/highright/highcare/auth">
 - 일반 로그인 
-- 소셜 로그인(oauth2 인증)
+- 소셜 로그인(oauth2 인증) <a href="https://github.com/HDhye/HIGHCARE-SPRINGBOOT/tree/main/highcare/src/main/java/com/highright/highcare/oauth">
 - 계정찾기
 - 비밀번호 변경 구현
-#### 관리자 페이지 <a href="">
+#### 관리자 페이지 <a href="https://github.com/HDhye/HIGHCARE-SPRINGBOOT/tree/main/highcare/src/main/java/com/highright/highcare/admin">
 - 회원관리
 - 권한관리
 - 접속로그
-#### 비즈니스로직 공통 관심사 <a href="">
+#### 비즈니스로직 공통 관심사
 - 로깅
 - 에러핸들러
-- 예외처리
-#### 기타 <a href="">
-- 메일보내기 
+
 
