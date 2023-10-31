@@ -26,7 +26,7 @@
 - Database : Oracle DB(11xe)
 - ORM : JPA
 
-## 📌 주요 기능
+## 📌 주요 기능 <a href="https://github.com/HDhye/HIGHCARE-SPRINGBOOT.wiki.git">
 #### 시큐리티/로그인 
 - 일반 로그인 
 - 소셜 로그인(oauth2 인증)
