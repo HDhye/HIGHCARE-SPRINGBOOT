@@ -23,7 +23,7 @@
 ### ⚙️ 개발 환경
 - Java 11
 - Framework : Springboot(2.x)
-- Database : Oracle DB(11xe)
+- Database : Oracle DB(11xe), Redis DB(7.x)
 - ORM : JPA
 
 ## 📌 주요 기능 <a href="https://github.com/HDhye/HIGHCARE-SPRINGBOOT/wiki/%ED%95%98%EC%9D%B4%EC%BC%80%EC%96%B4(%EB%B0%B1%EC%97%94%EB%93%9C)"> - 상세 보기(wiki 이동)
