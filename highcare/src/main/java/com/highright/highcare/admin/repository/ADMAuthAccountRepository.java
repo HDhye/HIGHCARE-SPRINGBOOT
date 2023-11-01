@@ -26,16 +26,5 @@ public interface ADMAuthAccountRepository extends JpaRepository<ADMAuthAccount, 
     @Query("delete from AUTHAuthAccount a where a.id = :id")
     void deleteByMemberId(@Param("id") String id);
 
-//    void deleteByMemberId(String id);
 
-
-//    void deleteById_Id(String id);
-
-//    @Modifying(clearAutomatically = true)   // 영속성 컨텍스트 최신화
-//    @Query("DELETE FROM AUTHAuthAccount e WHERE e.id IN :ids")
-//    void deleteAuthAccountBulk(@Param("ids") String[] ids);
-
-//    void insertAuthAccountBulk(String[] ids);
-//
-//    void updateAccountBulk(String[] ids, char n);
 }
