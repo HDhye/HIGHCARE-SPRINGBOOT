@@ -17,9 +17,7 @@ public interface ADMAccountRepository extends JpaRepository<ADMAccount, String> 
 
     ADMAccount findByEmpNo(int empNo);
 
-    //    List<ADMAccount> findAllByOrderByEmpNoAsc();
-//    @Query("SELECT a FROM ADMAccount a JOIN AUTHAuthAccount b ON a.memberId = b.id" +
-//            " ORDER BY CASE WHEN b.authCode = 'ROLE_PRE_USER' THEN 0 ELSE 1 END, a.empNo ASC")
+    
     @Query("SELECT DISTINCT a FROM ADMAccount a " +
             "LEFT JOIN  a.employee e " +
             "LEFT JOIN  a.roleList r " +
@@ -31,11 +29,7 @@ public interface ADMAccountRepository extends JpaRepository<ADMAccount, String> 
 
     Page<ADMAccount> findAllByOrderByAccessManager_RegistDateDesc(Pageable pageable);
 
-//    Page<ADMAccount> findByAccessManager_RegistDateBetweenOrderByAccessManager_RegistDateDesc(LocalDateTime start, LocalDateTime end, Pageable pageable);
 
-
-
-    //    List<ADMAccount> findByAccessManager_RegistDateBetweenOrderByAccessManager_RegistDateDesc(LocalDateTime start, LocalDateTime end);
     Page<ADMAccount> findByAccessManager_RegistDateBetweenOrderByAccessManager_RegistDateDesc(LocalDateTime start, LocalDateTime end, Pageable pageable);
 
     @Query(value = "SELECT a.* FROM TBL_ACCOUNT a " +
