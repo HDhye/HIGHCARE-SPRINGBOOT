@@ -27,7 +27,7 @@
 - ORM : JPA
 
 ## 📌 주요 기능 <a href="https://github.com/HDhye/HIGHCARE-SPRINGBOOT/wiki/%ED%95%98%EC%9D%B4%EC%BC%80%EC%96%B4(%EB%B0%B1%EC%97%94%EB%93%9C)"> - 상세 보기(wiki 이동)
-#### [시큐리티/로그인](https://github.com/HDhye/HIGHCARE-SPRINGBOOT/tree/main/highcare/src/main/java/com/highright/highcare/auth)
+#### [시큐리티/로그인(JWT인증방식)](https://github.com/HDhye/HIGHCARE-SPRINGBOOT/tree/main/highcare/src/main/java/com/highright/highcare/auth)
 - 일반 로그인 
 - [소셜 로그인: OAuth2 인증방식 API 연동(구글, 카카오)](https://github.com/HDhye/HIGHCARE-SPRINGBOOT/tree/main/highcare/src/main/java/com/highright/highcare/oauth)
 - 계정찾기
